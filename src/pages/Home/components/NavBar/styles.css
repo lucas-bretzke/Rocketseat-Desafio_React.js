@@ -1,0 +1,78 @@
+container {
+    width: 100%;
+}
+
+nav {
+    width: 1103px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #5D5D6D;
+    font-style: normal;
+    font-family: 'Saira Stencil One';
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 336px;
+    height: 32px;
+    border: none;
+    background: #F3F5F6;
+    border-radius: 8px;
+    padding: 10px 16px;
+    outline: 0;
+    color: #737380;
+    font-family: 'Saira';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.FaSistrix {
+    position: relative;
+    right: 44px;
+    width: 24.12px;
+    height: 24.12px;
+    color: #737380;
+}
+.container-counter {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+.FaShoppingBag {
+    width: 26px;
+    height: auto;
+    margin-left: 3px;
+    z-index: 1;
+}
+
+.counter {
+    position: absolute;
+    top: 17px; /* ajuste para cima */
+    left: 16px; /* ajuste para a direita */
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    background: #DE3838;        
+    z-index: 2;
+}
