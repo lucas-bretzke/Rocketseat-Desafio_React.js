@@ -1,0 +1,48 @@
+.card {
+    width: 256px;
+    height: auto;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    border-radius: 8px 8px 0px 0px;
+}
+
+img {
+    width: 256px;
+    height: 300px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.name {
+    width: 232px;
+    height: 24px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #41414D;
+    margin: 8px auto;
+}
+
+.line {
+    width: 228px;
+    height: 0px;
+    border: 1px solid #DCE2E6;
+    margin: 0 auto;
+}
+
+.price {
+    width: 232px;
+    height: 21px;
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #09090A;
+    margin: 8px auto;
+}
