@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #DEDEDE;
+}
+
+.center {
+    width: 1103px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.product-catalog {
+    display: grid;
+    grid-row: 3fr;
+    row-gap: 20px;
+    column-gap: 26px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 32PX 0;
+
+}
